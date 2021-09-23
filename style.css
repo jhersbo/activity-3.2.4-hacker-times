@@ -5,12 +5,16 @@ h1{
     text-align: center;
     margin: auto;
     font-size: 100px;
+
+    text-shadow: 2px 1px 2px #777;
 }
 
 h2{
     font-family: 'Roboto Slab', serif;
     font-size: 35px;
     margin: 0;
+
+    text-shadow: 1px 1px 2px #777;
 }
 
 h4{
@@ -20,6 +24,8 @@ h4{
 h5{
     color: rgb(221,50,50);
     font-size: 25px;
+
+    text-shadow: 0.5px 0.5px 1px #777
 }
 
 p{
@@ -48,11 +54,20 @@ li{
     margin: auto;
 }
 
-a{
+a:not(#cursed){
     text-decoration: none;
     padding: 20px;
     color: #777;
     font-family: sans-serif;
+}
+
+#cursed{
+    text-decoration: none;
+    color: black;
+}
+
+#cursed:hover{
+    color: cornflowerblue;
 }
 
 body{
@@ -88,6 +103,8 @@ section{
     margin-left: auto;
     margin-right: auto;
     padding: 0px 50px 0px 50px;
+
+    
 }
 
 .more-articles{
@@ -116,4 +133,9 @@ p{
     line-height: 1.4;
 
     padding: 0 1em 0 1em;
+}
+
+.nav:hover{
+    color: red;
+    text-shadow: 1px 1px 1px darkred;
 }
