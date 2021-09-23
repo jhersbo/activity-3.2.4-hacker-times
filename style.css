@@ -1,1 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+h1{
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    margin: auto;
+    font-size: 100px;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    margin: 0;
+}
+
+h4{
+    font-family: 'Roboto Slab', serif;
+}
+
+h5{
+    color: rgb(221,50,50);
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.date{
+    font-family: sans-serif;
+    padding: 20px 0px 0px 20px;
+    color: #777;
+}
+
+nav{
+    list-style: none;
+    margin: 1em;
+    padding: 0;
+    text-align: center;
+
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: #777;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #eee;
+}
+
+.newspaper-container {
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border-radius: 25px;
+    border-color: #eee;
+    box-shadow: 0 5px 5px #ddd;
+}
+
+main, .more-articles{
+    padding: 20px;
+}
+
+main > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+section{
+    display: inline-block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 50px 0px 50px;
+}
+
+.more-articles{
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-top: 2px solid #eee;
+}
+
+section > p{
+    text-align: left;
+}
+
+section > h4{
+    text-align: left;
+    font-size: 2em;
+}
+
+section > img{
+    width: 100%;
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.4;
+
+    padding: 0 1em 0 1em;
+}
